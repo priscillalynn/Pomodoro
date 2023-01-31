@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+.title {
+    position: relative;
+    margin-top: 10%;
+}
+
 html, body {
     background-image: url('https://64.media.tumblr.com/d5241575957089ba6a2de5f8e35a76c8/tumblr_nok6rpNNmU1uo5tbio1_1280.gifv');
     background-repeat: no-repeat;
@@ -20,7 +25,6 @@ html, body {
 }
 
 /* ==== CONTENT ==== */
-
 section {
     display: flex;
     align-items: center;
@@ -95,7 +99,6 @@ section {
     position: relative;
 }
 
-
 .controls button {
     border: none;
     background-color: transparent;
@@ -104,7 +107,6 @@ section {
     margin-top: 1rem;
     font-size: 30px;
 }
-
 
 .controls #reset {
     display: none;
