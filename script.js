@@ -1,7 +1,7 @@
 let workTitle = document.getElementById('work');
 let breakTitle = document.getElementById('break');
 
-let workTime = 1;
+let workTime = 25;
 let breakTime = 5;
 
 let seconds = "00";
@@ -21,7 +21,7 @@ function start() {
     document.getElementById('reset').style.display = "block";
 
     //change the time
-    seconds = 3;
+    seconds = 59;
 
     let workMins = workTime - 1;
     let breakMins = breakTime - 1;
