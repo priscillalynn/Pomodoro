@@ -1,5 +1,5 @@
 # Pomodoro
- A visually pleasing pomodoro timer website that incorporates a calming work/study playlist.
+ <h2 align="center">A visually pleasing pomodoro timer website that incorporates a calming work/study playlist.</h2>
  <br>
 https://priscillalynn.github.io/Pomodoro/
 
