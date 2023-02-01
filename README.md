@@ -14,4 +14,8 @@ Features 😸
 - Work Time [25 min]
 - Break Time [5 min]
 - Reset Timer Button
-- Music Player [coming soon]
+
+Coming Soon 
+- Music Player
+- Pause Timer Button
+- Edit Timer Functionality
