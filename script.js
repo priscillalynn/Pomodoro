@@ -1,7 +1,7 @@
 let workTitle = document.getElementById('work');
 let breakTitle = document.getElementById('break');
 
-let workTime = 1;
+let workTime = 25;
 let breakTime = 5;
 
 let seconds = "00";
@@ -20,8 +20,8 @@ function start() {
     document.getElementById('start').style.display = "none";
     document.getElementById('reset').style.display = "block";
 
-    // change the time
-    seconds = 3;
+    //change the time
+    seconds = 59;
 
     let workMins = workTime - 1;
     let breakMins = breakTime - 1;
@@ -39,11 +39,13 @@ function start() {
 
         if(seconds === 0) {
             workMins = workMins - 1;
+            seconds = 59;
             if(workMins === -1) {
                 if(breakCount % 2 === 0) {
                     // start break
                     workMins = breakMins;
                     breakCount++;
+                    
                     //change panel
                     workTitle.classList.remove('active');
                     breakTitle.classList.add('active');
@@ -57,7 +59,7 @@ function start() {
                     workTitle.classList.add('active');
                 }
             }
-            seconds = 59;
+           // seconds = 59;
         }
     }
 
