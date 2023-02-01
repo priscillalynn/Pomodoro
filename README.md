@@ -15,7 +15,8 @@ Features 😸
 - Break Time [5 min]
 - Reset Timer Button
 
-Coming Soon 
+Coming Soon 🐶
 - Music Player
 - Pause Timer Button
 - Edit Timer Functionality
+- Alarm Sound
