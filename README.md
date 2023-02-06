@@ -22,3 +22,4 @@ Coming Soon 🐶
 - Pause Timer Button
 - Edit Timer Functionality
 - Alarm Sound
+- Option to Change Background
