@@ -66,3 +66,18 @@ function start() {
     //start countdown
     setInterval(timerFunction, 1000); //1000 = 1s
 }
+
+
+const playAudio = () => {
+    let audio = new Audio('assets/audio/Doja Cat - Say So (Audio).mp3');
+    audio.play();
+
+    if(audio.play === true) {
+        
+    }
+}
+
+const pauseAudio = () => {
+    let audio = new Audio('assets/audio/Doja Cat - Say So (Audio).mp3');
+    audio.pause();
+}
