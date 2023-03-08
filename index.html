@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Pomodoro Timer</title>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pomodoro Timer</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/audio/images/stars.png" type="image/x-icon">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -36,6 +40,21 @@
                 <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
                 <a id="reset" href="./"><i class="fa-solid fa-arrow-rotate-left"></i></a>
             </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="music-player">
+            <audio id="audio" src="assets/audio/Doja Cat - Say So (Audio).mp3" autoplay="false"> </audio>
+            <button onclick="playAudio()"><i class="fa-solid fa-play"></i></button>
+            <button onclick="pauseAudio()"><i class="fa-solid fa-pause"></i></button>
+        </div>
+
+            <div class="genre-buttons-container">
+                <button class="genre-buttons" onclick="playChillFocus()">chill focus</button>
+                <button class="genre-buttons" onclick="playExtremeFocus()">extreme focus</button>
+                <button class="genre-buttons" onclick="playPonder()">ponder</button>
+                <button class="genre-buttons" onclick="playDaydream()">daydream</button>   
         </div>
     </section>
     <!-- SCRIPT -->

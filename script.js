@@ -66,3 +66,42 @@ function start() {
     //start countdown
     setInterval(timerFunction, 1000); //1000 = 1s
 }
+
+    
+let audio = new Audio('assets/audio/Doja Cat - Say So (Audio).mp3');
+
+let chillFocusAudio = new Audio('assets/audio/Doja Cat - Say So (Audio).mp3');
+let extremeFocusAudio = new Audio('assets/audio/Doja Cat - Say So (Audio).mp3');
+let ponderAudio = new Audio('assets/audio/Doja Cat - Say So (Audio).mp3');
+let daydreamAudio = new Audio('assets/audio/Doja Cat - Say So (Audio).mp3');
+
+
+const playAudio = () => {
+    audio.play();
+    if(audio.play === true) {
+        document.getElementById("fa-solid fa-play").removeEventListener('click', playAudio);
+    } else {
+        document.getElementById("fa-solid fa-play").addEventListener('click', playAudio);
+    }
+}
+
+const pauseAudio = () => {
+    audio.pause();
+}
+
+
+/*
+if audio is playing, remove event listener & change icon to pause
+if icon is set to pause icon, add event listener & change icon to play
+
+for different genres, if a certain genre is selected, change the audio file to that genre
+
+const playChillFocusAudio = () => {
+    chillFocusAudio.play();
+    if(chillFocusAudio.play === true) {
+        document.getElementById("fa-solid fa-play").removeEventListener('click', playChillFocusAudio);
+    } else {
+        document.getElementById("fa-solid fa-play").addEventListener('click', playChillFocusAudio);
+    }
+    
+*/
