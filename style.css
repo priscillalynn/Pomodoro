@@ -113,27 +113,10 @@ section {
     margin-top: 20px;
 }
 
-.music-player {
-    display: flex;
-    font-size: 20px;
-    justify-content: left;
-    align-items: flex-start;
-    margin: 20px;
-}
-
-.music-player button {
-    border: none;
-    background-color: transparent;
-    color: white;
-    cursor: pointer;
-    font-size: 25px;
-    margin: 10px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
 .genre-buttons-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .genre-buttons {
@@ -146,10 +129,35 @@ section {
     padding: 10px;
     font-family: 'Press Start 2P', cursive;
     margin: 5px;
+    font-size: 12px;
 }
 
 .genre-buttons:hover {
     background-color: #5e2f61;
     color: white;
     cursor: pointer;
+}
+
+.music-player {
+    display: flex;
+    font-size: 20px;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.music-player button {
+    border: none;
+    background-color: transparent;
+    color: #5e2f61;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.music-player button:hover {
+    color: #5e2f61;
+    opacity: 70%;
 }
